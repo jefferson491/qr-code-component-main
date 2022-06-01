@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2? family=Outfit:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 710px;
+}
+.targeta{
+    height: 40rem;
+    width: 23rem;
+    padding: 1.5rem;
+    background-color: hsl(0, 0%, 100%);
+radio de borde: 25px 25px 25px 25px;
+-moz-border-radius: 25px 25px 25px 25px;
+-webkit-border-radius: 25px 25px 25px 25px;
+borde: 0px sólido #000000;
+}
+.imagen{
+    background-image: url("images/image-qr-code.png");
+    background-size: cover;
+    height: 24rem;
+    radio de borde: 13px 13px 13px 13px;
+-moz-border-radius: 13px 13px 13px 13px;
+-webkit-border-radius: 13px 13px 13px 13px;
+borde: 0px sólido #000000;
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+p{
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(98, 92, 92);
+}
